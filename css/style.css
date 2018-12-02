@@ -1835,7 +1835,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .now_hiring_content {
-  padding: 40px 0px 40px 600px;
+  padding: 40px 0px 40px 0px;
 }
 
 .now_hiring_content .hiring_inner_item .hiring_single_content p {
@@ -3299,7 +3299,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 .contact_area {
   padding: 100px 0px;
-  padding-left: 350px;
 }
 
 .contact_area .contact_details p {
