@@ -1834,16 +1834,83 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding-top: 15px;
 }
 
-.now_hiring_content {
-  padding: 40px 0px 40px 0px;
+============================================================================================ */
+/* Hiring Now area css
+============================================================================================ */
+.hiring_now_content {
+  padding: 40px 0px 100px 0;
 }
 
-.now_hiring_content .hiring_inner_item .hiring_single_content p {
+.hiring_now_content .hiring_inner_item {
+  margin-top: 60px;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_left_content h4 {
+  font-family: "Cantata One", serif;
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: -12px;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_left_content p {
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+  color: #666666;
+  padding-top: 25px;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_left_content ul {
+  padding-top: 22px;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_left_content ul li {
+  margin-bottom: 6px;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_left_content ul li a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  transition: all 400ms linear 0s;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_left_content ul li a i {
+  color: #b10400;
+  padding-right: 5px;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_left_content ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_left_content ul li:hover a {
+  color: #b10400;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_right_image img {
+  max-width: 100%;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_right_ms {
+  margin-top: -15px;
+  margin-right: -15px;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_right_ms .hiring_ms_item {
+  max-width: 100%;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.hiring_now_content .hiring_inner_item .hiring_single_content p {
   font-size: 14px;
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
   color: #666666;
   padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 /* End About us area css
