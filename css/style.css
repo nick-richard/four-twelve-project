@@ -3593,6 +3593,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #b10400;
   font-family: "Open Sans", sans-serif;
   font-family: "Vast Shadow", normal;
+  font-weight: 100;
 }
 
 .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .third_text {
