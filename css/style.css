@@ -1451,6 +1451,15 @@ body, p, h1, h2, h3, h4, h5, h6 {
   margin-right: 0px;
 }
 
+.menu-box {
+  padding: 20px;
+  width: 80%;
+  max-width: 1100px;
+  background: #f8f9eb;
+  margin: 50px auto;
+  box-shadow: 0px 0px 50px rgba(0,0,0,.4);
+}
+
 .menuh1 {
   font-weight: 400;
   text-align: center;
