@@ -3765,6 +3765,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding: 100px 0px;
 }
 
+.footer_widget_text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+}
+
 .about_widget p {
   color: #fff;
   font-size: 14px;
