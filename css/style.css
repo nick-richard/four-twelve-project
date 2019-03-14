@@ -521,14 +521,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.menu_img img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-width: 100%;
-}
-
 /* End Main Menu area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -1460,12 +1452,22 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .menu-box {
-  padding: 20px;
+  padding: 0px;
   width: 80%;
-  max-width: 1100px;
+  height: 1200px;
   background: #f8f9eb;
-  margin: 50px auto;
+  margin: 3px auto;
   box-shadow: 0px 0px 50px rgba(0,0,0,.4);
+}
+
+.menu_img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: auto;
+  width: 90%;
+  height: 1100px;
 }
 
 .menuh1 {
